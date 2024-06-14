@@ -9,11 +9,11 @@
     "deploy": "npm run export && gh-pages -d out",
     "start": "next start",
     "lint": "next lint",
-    "homepage": "https://hurleyquin911.github.io/aditia-portovolio.v2"
-
+    "homepage": "https://hurleyquin911.github.io/aditia-portofolio.v2"
   },
   "dependencies": {
     "@babel/core": "^7.24.7",
+    "@babel/preset-env": "^7.24.7",
     "@radix-ui/react-dialog": "^1.0.5",
     "@radix-ui/react-scroll-area": "^1.0.5",
     "@radix-ui/react-select": "^2.0.0",
@@ -24,7 +24,7 @@
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.10",
     "lucide-react": "^0.390.0",
-    "next": "^14.2.3",
+    "next": "^14.2.4",
     "react": "^18",
     "react-countup": "^6.5.3",
     "react-dom": "^18",
