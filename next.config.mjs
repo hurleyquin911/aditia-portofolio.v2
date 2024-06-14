@@ -1,8 +1,10 @@
-/**
- * @type {import('next').NextConfig}
- */
+/** @type {import('next').NextConfig} */
+
 const nextConfig = {
-  output: "export",
+  assetPrefix:
+    process.env.NODE_ENV === "production" ? "/aditia-portofolio.v2/" : "",
+  basePath:
+    process.env.NODE_ENV === "production" ? "/aditia-portofolio.v2" : "",
 };
 
-module.exports = nextConfig;
+export default nextConfig;
